@@ -43,3 +43,35 @@ html {
     color: var(--border-color);
 }
 
+.introduction-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2.5%;
+}
+
+.title-card-container,
+    .log-in-card-container {
+    display: flex;
+
+    justify-content: center;
+    background-color: var(--child-bg-color);
+    border-style: solid;
+    border-color: var(--border-color);
+
+    height: 20rem;
+    width: 30rem;
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+    text-align: center;
+    align-items: center;
+}
+
+.title-card-container {
+    margin-right: 2rem;
+}
+
