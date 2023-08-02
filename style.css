@@ -1,8 +1,13 @@
 html {
-    --parent-bg-color: 0C2231;
-    --font-color: E9F7F9;
-    --child-bg-color: 5062AA;
-    --border-color: F4A15D;
+    --parent-bg-color: 0C2427;
+    --font-color: F7F7F8;
+    --child-bg-color: BF223C;
+    --border-color: 2C7CB0;
+
+    --parent-bg-color2: 0C2231;
+    --font-color2: E9F7F9;
+    --child-bg-color2: 5062AA;
+    --border-color2: F4A15D;
 
 
     background-color: var(--parent-bg-color);
@@ -21,11 +26,21 @@ html {
     /** Positioning **/
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+}
+
+.header h1 {
+    margin: auto;
 }
 
 #nav-list {
     list-style: none;
-
     display: flex;
     flex-direction: row;
 }
@@ -73,5 +88,39 @@ html {
 
 .title-card-container {
     margin-right: 2rem;
+}
+
+.game-mode-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2.5%;
+}
+
+.everyday-questions-description,
+    .where-are-we-description,
+        .name-3-things {
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--child-bg-color);
+    border-style: solid;
+    border-color: var(--border-color);
+
+    height: 20rem;
+    width: 50rem;
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+    margin: auto;
+    margin-top: 2%;
+
+    text-align: center;
+    align-items: center;
 }
 
