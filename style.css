@@ -102,7 +102,8 @@ html {
 
 .everyday-questions-description,
     .where-are-we-description,
-        .name-3-things {
+        .name-3-things,
+            .spelling-bee {
     display: flex;
 
     justify-content: center;
